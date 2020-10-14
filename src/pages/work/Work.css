@@ -1,0 +1,33 @@
+.my-work {
+  /* height: 100vh; */
+  width: 100%;
+  background-image: radial-gradient(circle, #e2e7eb, #d0d8e0, #bfcad5, #afbbcb, #a0adc0);
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font);
+  color: black;
+}
+.my-work h1 {
+  font-weight: 100;
+  margin-bottom: 40px;
+  align-self: center;
+}
+
+.project {
+  display: flex;
+  justify-content: flex-start;
+}
+.item {
+  height: 300px;
+  width: 500px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 6px 0 rgba(0, 0, 0, 0.8);
+}
+.item img {
+  height: 100%;
+  width: 100%;
+}
+.item-info {
+  margin: 30px;
+}

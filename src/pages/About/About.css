@@ -1,0 +1,116 @@
+.about {
+  height: 100vh;
+  width: 100%;
+  /* border: solid 1px red; */
+  display: flex;
+  flex-basis: 100%;
+  /* flex: 1; */
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: url('./final.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: bottom;
+  background-size: cover;
+  font-family: var(--font);
+  color: #090a0b;
+}
+.content-about {
+  /* border: solid 1px red; */
+
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 200px;
+  padding-left: 50px;
+  height: 100%;
+}
+.content-about h1 {
+  font-size: 3rem;
+}
+.content-about p {
+  font-size: 1.2rem;
+}
+.infos {
+  border: solid 1px blue;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+.infos ul {
+  list-style: none;
+}
+.infos ul li {
+  margin: 30px;
+}
+.card {
+  padding-top: 100px;
+  width: 600px;
+  height: 100%;
+
+  /* background-color: white; */
+  display: flex;
+  flex-basis: 1;
+}
+.card-left {
+  width: 50%;
+}
+.front-end {
+  text-align: center;
+  color: black;
+  padding: 5px;
+}
+.card-right {
+  width: 50%;
+  /* background-color: black; */
+}
+.back-end {
+  text-align: center;
+  padding: 5px;
+  /* color: white; */
+}
+.black-text {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: #090a0b;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.white-text {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: #0a7cc4;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.skill {
+  background-color: #090a0b;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .about {
+    flex-direction: column;
+    width: 100vw;
+    justify-content: start;
+  }
+  .content-about {
+    width: 100%;
+    border: 1px solid red;
+    height: 300px;
+    padding-top: 100px;
+  }
+  .card {
+    width: 100%;
+    border: 1px solid yellow;
+    padding-top: 0;
+  }
+}
